@@ -2,7 +2,15 @@
 
 **AI and Data Science graduate** (B.Tech) building practical machine-learning and LLM applications, with a focus on retrieval-augmented generation (RAG), measurable evaluation and clean, reproducible code.
 
-## Featured project
+## Featured projects
+
+### [crop-recommendation-system](https://github.com/DHarikaRao/crop-recommendation-system)
+
+Explainable crop recommendation with a Flask web app and JSON API. Compares six models with cross-validation, measures robustness to noisy and missing inputs, and returns conformal prediction sets with a coverage target.
+
+- **Honest evaluation:** 99.8% held-out accuracy, but accuracy falls to 82.5% under moderate input noise, and the README documents it
+- **Uncertainty-aware:** shows the three best guesses when no crop is confident enough
+- **Service quality:** 48 tests, CI, rate limiting, Prometheus metrics and an OpenAPI spec
 
 ### [multi-document-rag](https://github.com/DHarikaRao/multi-document-rag)
 
@@ -16,6 +24,7 @@ Local question answering over PDFs with page-level sources. Runs fully offline w
 ## Technical focus
 
 - **LLM applications:** RAG pipelines, embeddings, vector databases, local LLMs
+- **Trustworthy ML:** robustness testing, calibration and uncertainty estimates, not just accuracy
 - **Evaluation-driven development:** measure first, change one thing, compare results
 - **Python data stack:** data analysis and cleaning with Pandas and Jupyter
 - **Interview fundamentals:** data structures, algorithms and system design
@@ -33,6 +42,7 @@ Local question answering over PDFs with page-level sources. Runs fully offline w
 
 **AI and data**
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat&logo=huggingface&logoColor=black)
@@ -45,20 +55,20 @@ Local question answering over PDFs with page-level sources. Runs fully offline w
 ![Hybrid Search](https://img.shields.io/badge/Hybrid%20Search-Vector%20%2B%20BM25-2ea043?style=flat)
 ![Embeddings](https://img.shields.io/badge/Embeddings-all--MiniLM--L6--v2-fb8500?style=flat)
 
-**Tools**
+**Backend and tooling**
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
 ## Currently learning
 
 - **Data structures and algorithms:** core data structures, algorithms and complexity analysis; practice solutions will be published in a dedicated repo
-- **System design fundamentals:** scalability, caching, databases and API design, applied to LLM and RAG systems
+- **System design fundamentals:** scalability, caching, databases and API design, applied to ML and RAG services
 - **R and advanced Pandas** for data analysis
+- **Next for crop-recommendation-system:** a live demo deployment and a load test
 - **Next for multi-document-rag:** query rewriting, a Streamlit interface and a full evaluation run
-
-## Planned projects
-
-- Crop recommendation system (classical machine learning)
 
 ## Get in touch
 
